@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce website</title>
+    <link rel="stylesheet" href="../css/styles.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>      
+</head>
+<!-- Internal css  -->
+<style> 
+    .logo {
+    height: 80px;
+    width: 165px;
+    
+}
+.Price{
+    color: rgb(6, 6, 6);
+}
+h6{
+    font-size: 15px;
+}
+#para{
+    color: rgb(233, 8, 8);
+    font-size: 20px;
+    font-weight: 600;
+}
+</style>
+
+<!-- <body> -->
+    <section id="header">
+        <a href="#"><img src="../images/logos/logo1.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="product.html">Product</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="login.html"><i class="fa-solid fa-user"></i></a></li>
+                <li id="lg-cart"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fa fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="pro-details" class="section-p1">
+        <div class="single-pro-image">
+            <img src="../images/products/img5.1.jpg" width="100%" id="MainImg" alt="">
+
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="../images/products/img5.1.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="../images/products/img5.2.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="../images/products/img5.3.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="../images/products/img5.4.jpg" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="single-pro-details">
+            <h6>HP</h6>
+            <h4>HP Color LaserJet Enterprise MFP M480f</h4>
+            <h2 class="Price"><s>$1,032.99</s></h2>
+            <p id="para">25% off</p>
+            <h2 class="Price">$774.75</h2>
+            <label for="quantity">Quantity: <input type="number" id="quantity" value="1"></label>
+            <button class="simple">Add To Cart</button>
+            <h4><strong>Product Details</strong></h4>
+            <span>HP's entry-level Enterprise-class Color MFP with speeds up to 28 ppm and strongest security. HP FutureSmart firmware can be updated with the latest features to optimize your investment for years to come. Centralize control of your printing environment with HP Web Jetadmin—and help build business efficiency.</span>
+            
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Printers</h2>
+        <p>Highly Rated Printers</p>
+        <div class="pro-container">
+            <div class="pro" onclick="window.location.href='product.html';">
+                <img src="../images/latest edition/img9.1.jpeg" alt="">
+                <div class="desc">
+                    <span>HP</span>
+                    <h5>HP OfficeJet Pro 9015e All-in-One Printer</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$199.99</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='product.html';">
+                <img src="../images/latest edition/img10.1.webp" alt="">
+                <div class="desc">
+                    <span>Canon</span>
+                    <h5>Canon Maxify GX5020 </h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$299.00</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='product.html';">
+                <img src="../images/latest edition/img11.1.jpg" alt="">
+                <div class="desc">
+                    <span>Brother</span>
+                    <h5>Brother MFC-J4335DW</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$159.99</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='product.html';">
+                <img src="../images/latest edition/img12.3.webp" alt="">
+                <div class="desc">
+                    <span>Brother</span>
+                    <h5>Brother HL-L9310CDW</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$679.98</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4><strong>Sign Up For More Content</strong></h4>
+            <p><strong>Get E-mail updates about our latest products and <span>special offers.</span></strong></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="simple">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="../images/logos/logo1.png" class="logo" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Tarkeshwor-10, Manamaiju, Gongabu, Kathmandu</p>
+            <p><strong>Phone:</strong> (+977)9807185800</p>
+            <p><strong>Hours:</strong> 9:00 - 20:00, Mon-Fri</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-discord"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="colpay">
+            <h4>Secured Payment Gateways</h4>
+            <img src="../images/logos/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p> &copy; 2024, PrintIT - All rights reserved! </p>
+        </div>
+    </footer>
+
+    <!-- Internal javascript  -->
+
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function(){
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function(){
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function(){
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function(){
+            MainImg.src = smallimg[3].src;
+        }
+    
+    </script>
+
+        <script src="../js/main.js"></script>
+</body>
+
+</html>
